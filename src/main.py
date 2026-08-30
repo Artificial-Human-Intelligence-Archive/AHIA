@@ -5,13 +5,16 @@ app = Flask(__name__)
 
 conn = sqlite3.connect('logs.db', timeout=30)
 cursor = conn.cursor()
-cursor.executescript('''CREATE TABLE IF NOT EXISTS log(
+cursor.execute('''CREATE TABLE IF NOT EXISTS log(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 nume TEXT NOT NULL,
 email TEXT UNIQUE NOT NULL,
 parola TEXT NOT NULL,
-aid INTEGER);
-CREATE TABLE IF NOT EXISTS fis(
+aid INTEGER);''')
+
+conn = sqlite3.connect('fis.db', timeout=30)
+cursor = conn.cursor()
+cursor.execute('''CREATE TABLE IF NOT EXISTS fis(
 id INTEGER PRIMARY KEY AUTOINCREMENT,
 uid INTEGER NOT NULL,
 nume TEXT NOT NULL,
