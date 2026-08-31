@@ -96,7 +96,7 @@ Since the project is still in planning, these steps will be refined once the cod
 
 ```bash
 # Clone the repository
-git clone https://github.com/Filip-scripts/arhivanecula.git
+git clone https://github.com/Filip-scripts/AHIA.git
 cd arhivanecula
 
 # Create a virtual environment (recommended)
