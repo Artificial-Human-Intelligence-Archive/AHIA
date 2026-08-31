@@ -95,7 +95,7 @@ Since the project is in planning, these steps will be finalized once code is wri
 
 ```bash
 # Clone the repository
-git clone https://github.com/Filip-scripts/arhivanecula.git
+git clone https://github.com/Filip-scripts/AHIA.git
 cd ahia
 
 # Create a virtual environment
