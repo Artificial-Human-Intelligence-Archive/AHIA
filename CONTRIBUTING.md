@@ -108,3 +108,119 @@ pip install -r requirements.txt
 
 # Run the main entry point
 python main.py
+```
+**Future packaging:** We will use **PyInstaller** or **Nuitka** to bundle everything into a single `.exe` file.
+
+---
+
+## 🎨 Code Style Guidelines
+
+To keep the codebase clean and maintainable, we follow these standards:
+
+- **Python:** Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/).
+- **Line length:** Maximum 88 characters (we use Black formatter).
+- **Docstrings:** Use Google-style or NumPy-style docstrings for all public functions/classes.
+- **Type hints:** Use Python type hints (e.g., `def process(data: dict) -> list:`).
+- **Imports:** Group imports in this order:
+  1. Standard library
+  2. Third-party libraries
+  3. Local modules
+- **Comments:** Write clear comments for complex logic – but prefer self-documenting code.
+
+**Tools we use (will be added):**
+- `black` – automatic code formatting.
+- `isort` – import sorting.
+- `flake8` or `pylint` – linting.
+- `pytest` – unit testing.
+
+> 💡 *Recommendation:* Install pre-commit hooks once they are added to the repo.
+
+---
+
+## ✍️ Commit Message Guidelines
+
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification to keep a clean and readable history.
+
+**Format:**
+```
+<type>(<scope>): <subject>
+
+[optional body]
+
+[optional footer]
+```
+
+**Types:**
+- `feat` – new feature.
+- `fix` – bug fix.
+- `docs` – documentation changes.
+- `style` – formatting, missing semicolons, etc. (no code change).
+- `refactor` – code restructuring (no new features or fixes).
+- `perf` – performance improvements.
+- `test` – adding or updating tests.
+- `chore` – build process, dependencies, etc.
+
+**Examples:**
+```
+feat(browser): add support for SOCKS5 proxy
+```
+```
+fix(antibot): handle Cloudflare challenge correctly
+```
+```
+docs(readme): update installation instructions
+```
+
+---
+
+## 🔄 Pull Request Process
+
+We welcome Pull Requests (PRs) from everyone! Here's the workflow:
+
+1. **Fork** the repository.
+2. **Create a new branch** with a descriptive name:
+   - `feature/your-feature-name`
+   - `fix/issue-xxx`
+   - `docs/update-readme`
+3. **Make your changes** – keep them focused and well-tested.
+4. **Run tests** (when available) to ensure nothing is broken.
+5. **Commit** with a clear message (see guidelines above).
+6. **Push** to your fork and open a Pull Request against the `main` branch.
+7. **Describe your changes** in the PR description – why, what, and how.
+8. **Wait for review** – maintainers will provide feedback or approve.
+
+**PR Checklist:**
+- [ ] My code follows the style guidelines.
+- [ ] I have added tests that cover my changes (if applicable).
+- [ ] I have updated the documentation accordingly.
+- [ ] My commit messages follow the Conventional Commits format.
+- [ ] I have linked any related Issues (e.g., `Closes #123`).
+
+---
+
+## ⚖️ License and Legal
+
+By contributing to AHIA, you agree that your contributions will be licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+This means:
+- Your code becomes part of an open-source project.
+- Anyone who uses or modifies the project must also release their modifications under AGPL.
+- You retain copyright over your contributions, but grant the project a perpetual, worldwide, royalty-free license to use them.
+
+Please ensure you have the rights to contribute the code you submit.
+
+---
+
+## 📞 Getting Help
+
+If you're stuck or have questions, reach out:
+
+- **Open an Issue** – tag it with `question`.
+- **Email the author:** [necula.info.cpp@gmail.com](mailto:necula.info.cpp@gmail.com)
+- **Discussions**
+
+We're friendly and happy to help! 😊
+
+---
+
+**Thank you for being part of this journey! Together, we can build something truly revolutionary. 🚀**
