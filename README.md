@@ -60,17 +60,29 @@ Start with **Python** for rapid prototyping and proof-of-concept. Once the archi
 ## 📂 Proposed Project Structure
 
 ahia/
+
 ├── archive/ # Archive & indexing module
+
 ├── browser/ # Browser engine & network connectivity
+
 ├── antibot/ # Anti-bot bypass scripts
+
 ├── ahi/ # The "Artificial Human Intelligence" AI core
+
 ├── utils/ # Common utilities (logging, file I/O, hashing, etc.)
+
 ├── tests/ # Unit tests (using pytest)
+
 ├── config/ # Configuration templates (.env.example, config.yaml)
+
 ├── docs/ # Additional documentation
+
 ├── gui/ # User interface (Qt, Tkinter, or WebView)
+
 ├── scripts/ # User-extensible scripts (Lua/Python)
+
 ├── main.py # Entry point for the executable
+
 └── README.md
 
 
