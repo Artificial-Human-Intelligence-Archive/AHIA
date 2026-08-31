@@ -119,7 +119,7 @@ We will use **PyInstaller** or **Nuitka** to package the entire project (includi
 
 The project is in its infancy, and every form of help is welcome – whether it's code, architecture advice, library recommendations, or even theoretical discussions about how **Artificial Human Intelligence** should think and learn.
 
-1. Read [CONTRIBUTING.md](CONTRIBUTING.md).
+1. Read [CONTRIBUTING](CONTRIBUTING.md).
 2. Open an [Issue](https://github.com/Filip-scripts/arhivanecula/issues) to discuss ideas or problems.
 3. Fork the repo, work on a branch, and submit a Pull Request.
 
