@@ -57,36 +57,16 @@ Start with **Python** for rapid prototyping and proof-of-concept. Once the archi
 
 ---
 
-## 📂 Proposed Project Structure
+## 🧩 Modules
 
-ahia/
-
-├── archive/ # Archive & indexing module
-
-├── browser/ # Browser engine & network connectivity
-
-├── antibot/ # Anti-bot bypass scripts
-
-├── ahi/ # The "Artificial Human Intelligence" AI core
-
-├── utils/ # Common utilities (logging, file I/O, hashing, etc.)
-
-├── tests/ # Unit tests (using pytest)
-
-├── config/ # Configuration templates (.env.example, config.yaml)
-
-├── docs/ # Additional documentation
-
-├── gui/ # User interface (Qt, Tkinter, or WebView)
-
-├── scripts/ # User-extensible scripts (Lua/Python)
-
-├── main.py # Entry point for the executable
-
-└── README.md
-
-
-> **Note:** The `ahi/` folder is the heart of the project. This is where **Artificial Human Intelligence** will live and evolve.
+| Module | Description | Repository |
+|--------|-------------|------------|
+| **AHI Core** | The AI brain | [ahia-core](https://github.com/Filip-scripts/ahia-core) |
+| **Universal Browser** | Browser engine | [ahia-browser](https://github.com/Filip-scripts/ahia-browser) |
+| **Anti-Bot Bypass** | CAPTCHA & protection bypass | [ahia-antibot](https://github.com/Filip-scripts/ahia-antibot) |
+| **Intelligent Archive** | Compression & search | [ahia-archive](https://github.com/Filip-scripts/ahia-archive) |
+| **Data Scripts** | Download & process data | [ahia-data](https://github.com/Filip-scripts/ahia-data) |
+| **Documentation** | Centralized docs | [ahia-docs](https://github.com/Filip-scripts/ahia-docs) |
 
 ---
 
@@ -96,8 +76,9 @@ Since the project is still in planning, these steps will be refined once the cod
 
 ```bash
 # Clone the repository
-git clone https://github.com/Filip-scripts/AHIA.git
-cd arhivanecula
+git clone https://github.com/Artificial-Human-Inteligence-Archive/AHIA.git
+git clone https://github.com/Artificial-Human-Inteligence-Archive/ahia-core.git
+cd AHIA
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -132,7 +113,7 @@ We will use **PyInstaller** or **Nuitka** to package the entire project (includi
 The project is in its infancy, and every form of help is welcome – whether it's code, architecture advice, library recommendations, or even theoretical discussions about how **Artificial Human Intelligence** should think and learn.
 
 1. Read [CONTRIBUTING](CONTRIBUTING.md).
-2. Open an [Issue](https://github.com/Filip-scripts/arhivanecula/issues) to discuss ideas or problems.
+2. Open an [Issue](https://github.com/Artificial-Human-Inteligence-Archive/AHIA/issues) to discuss ideas or problems.
 3. Fork the repo, work on a branch, and submit a Pull Request.
 
 Even if you're not a developer, you can help by discussing the architecture, suggesting libraries, or testing early prototypes.
