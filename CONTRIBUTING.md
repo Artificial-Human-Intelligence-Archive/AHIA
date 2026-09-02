@@ -95,8 +95,8 @@ Since the project is in planning, these steps will be finalized once code is wri
 
 ```bash
 # Clone the repository
-git clone https://github.com/Filip-scripts/AHIA.git
-cd ahia
+git clone https://github.com/Artificial-Human-Intelligence-Archive/AHIA.git
+cd AHIA
 
 # Create a virtual environment
 python -m venv venv
