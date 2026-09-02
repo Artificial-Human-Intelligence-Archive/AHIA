@@ -76,8 +76,8 @@ Since the project is still in planning, these steps will be refined once the cod
 
 ```bash
 # Clone the repository
-git clone https://github.com/Artificial-Human-Inteligence-Archive/AHIA.git
-git clone https://github.com/Artificial-Human-Inteligence-Archive/ahia-core.git
+git clone https://github.com/Artificial-Human-Intelligence-Archive/AHIA.git
+git clone https://github.com/Artificial-Human-Intelligence-Archive/ahia-core.git
 cd AHIA
 
 # Create a virtual environment (recommended)
@@ -113,7 +113,7 @@ We will use **PyInstaller** or **Nuitka** to package the entire project (includi
 The project is in its infancy, and every form of help is welcome – whether it's code, architecture advice, library recommendations, or even theoretical discussions about how **Artificial Human Intelligence** should think and learn.
 
 1. Read [CONTRIBUTING](CONTRIBUTING.md).
-2. Open an [Issue](https://github.com/Artificial-Human-Inteligence-Archive/AHIA/issues) to discuss ideas or problems.
+2. Open an [Issue](https://github.com/Artificial-Human-Intelligence-Archive/AHIA/issues) to discuss ideas or problems.
 3. Fork the repo, work on a branch, and submit a Pull Request.
 
 Even if you're not a developer, you can help by discussing the architecture, suggesting libraries, or testing early prototypes.
