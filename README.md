@@ -61,12 +61,12 @@ Start with **Python** for rapid prototyping and proof-of-concept. Once the archi
 
 | Module | Description | Repository |
 |--------|-------------|------------|
-| **AHI Core** | The AI brain | [ahia-core](https://github.com/Filip-scripts/ahia-core) |
-| **Universal Browser** | Browser engine | [ahia-browser](https://github.com/Filip-scripts/ahia-browser) |
-| **Anti-Bot Bypass** | CAPTCHA & protection bypass | [ahia-antibot](https://github.com/Filip-scripts/ahia-antibot) |
-| **Intelligent Archive** | Compression & search | [ahia-archive](https://github.com/Filip-scripts/ahia-archive) |
-| **Data Scripts** | Download & process data | [ahia-data](https://github.com/Filip-scripts/ahia-data) |
-| **Documentation** | Centralized docs | [ahia-docs](https://github.com/Filip-scripts/ahia-docs) |
+| **AHI Core** | The AI brain | [ahia-core](https://github.com/Artificial-Human-Intelligence-Archive/ahia-core) |
+| **Universal Browser** | Browser engine | [ahia-browser](https://github.com/Artificial-Human-Intelligence-Archive/ahia-browser) |
+| **Anti-Bot Bypass** | CAPTCHA & protection bypass | [ahia-antibot](https://github.com/Artificial-Human-Intelligence-Archive/ahia-antibot) |
+| **Intelligent Archive** | Compression & search | [ahia-archive](https://github.com/Artificial-Human-Intelligence-Archive/ahia-archive) |
+| **Data Scripts** | Download & process data | [ahia-data](https://github.com/Artificial-Human-Intelligence-Archive/ahia-data) |
+| **Documentation** | Centralized docs | [ahia-docs](https://github.com/Artificial-Human-Intelligence-Archive/ahia-docs) |
 
 ---
 
