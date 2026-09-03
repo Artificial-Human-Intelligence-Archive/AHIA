@@ -77,7 +77,6 @@ Since the project is still in planning, these steps will be refined once the cod
 ```bash
 # Clone the repository
 git clone https://github.com/Artificial-Human-Intelligence-Archive/AHIA.git
-git clone https://github.com/Artificial-Human-Intelligence-Archive/ahia-core.git
 cd AHIA
 
 # Create a virtual environment (recommended)
